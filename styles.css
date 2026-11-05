@@ -1,0 +1,167 @@
+body {
+    background-color: #F5F2FF;
+    color: #29213D;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    width: 90%;
+    margin: 30px auto;
+}
+
+header {
+    background-color: #D4FF3F;
+    padding: 60px 30px;
+    border: 4px solid #29213D;
+    border-radius: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: #6941C6;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+header h2 {
+    color: #FF4FA3;
+    font-size: 22px;
+}
+
+.summary {
+    background-color: #FFB6DC;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.preamble {
+    background-color: #C9B5FF;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.explanation {
+    background-color: #B9E9FF;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.participation {
+    background-color: #FFC9E8;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.benefits {
+    background-color: #D4FF3F;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.requirements {
+    background-color: #D9CCFF;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+h3 {
+    color: #6941C6;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #8B36B5;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF4FA3;
+}
+
+.sidebar {
+    background-color: #B9E9FF;
+    padding: 30px;
+    margin-top: 30px;
+    border: 3px solid #6941C6;
+    border-radius: 20px;
+}
+
+.sidebar h3 {
+    color: #FF4FA3;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: #6941C6;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #D4FF3F;
+    margin: 10px;
+}
+
+
+/* Images */
+header {
+    background-image: url("images/swagdog.jpg");
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+
+.summary {
+    background-image: url("images/lazydog.jpg");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 15px;
+    padding-right: 150px;
+}
+
+.explanation {
+    background-image: url("images/teletubies.jpg");
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 160px;
+}
+
+.participation {
+    background-image: url("images/sadhorse.jpg");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: right 15px bottom 15px;
+    padding-right: 150px;
+}
+
+.sidebar {
+    background-image: url("images/spamonkey.jpg");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: right 15px top 15px;
+    padding-right: 140px;
+}
